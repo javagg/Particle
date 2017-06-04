@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\wpf\src\Particle.WindowsBase.csproj" />
+    <ProjectReference Include="..\Particle.UIAutomationTypes\Particle.UIAutomationTypes.csproj" />
+  </ItemGroup>
+
+</Project>

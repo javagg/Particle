@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle", "Particle\Particle.csproj", "{01835E11-3A87-4CBA-8D44-462C1E594885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.WindowsBase", "Source\wpf\src\Particle.WindowsBase.csproj", "{47620579-C39D-4231-A336-1ACB96BB0652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.PresentationCore", "Source\wpf\src\Particle.PresentationCore.csproj", "{00120CF3-B5B8-4576-B071-73804256E1C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.PresentationFramework", "Source\wpf\Particle.PresentationFramework.csproj", "{92CF2BB2-7883-4B25-938C-29C52291C082}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Common", "src\Particle.Common\Particle.Common.csproj", "{5C6D805B-7B96-4B64-A54B-A82FFDD63D68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.UIAutomationTypes", "src\Particle.UIAutomationTypes\Particle.UIAutomationTypes.csproj", "{E19C2376-6605-4FFC-B96C-00337F778B41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.UIAutomationProvider", "src\Particle.UIAutomationProvider\Particle.UIAutomationProvider.csproj", "{D27AEF9E-EFFB-44E1-BF19-89D36447B2F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01835E11-3A87-4CBA-8D44-462C1E594885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01835E11-3A87-4CBA-8D44-462C1E594885}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01835E11-3A87-4CBA-8D44-462C1E594885}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01835E11-3A87-4CBA-8D44-462C1E594885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47620579-C39D-4231-A336-1ACB96BB0652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47620579-C39D-4231-A336-1ACB96BB0652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47620579-C39D-4231-A336-1ACB96BB0652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47620579-C39D-4231-A336-1ACB96BB0652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00120CF3-B5B8-4576-B071-73804256E1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00120CF3-B5B8-4576-B071-73804256E1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00120CF3-B5B8-4576-B071-73804256E1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00120CF3-B5B8-4576-B071-73804256E1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CF2BB2-7883-4B25-938C-29C52291C082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CF2BB2-7883-4B25-938C-29C52291C082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CF2BB2-7883-4B25-938C-29C52291C082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CF2BB2-7883-4B25-938C-29C52291C082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6D805B-7B96-4B64-A54B-A82FFDD63D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6D805B-7B96-4B64-A54B-A82FFDD63D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6D805B-7B96-4B64-A54B-A82FFDD63D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6D805B-7B96-4B64-A54B-A82FFDD63D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19C2376-6605-4FFC-B96C-00337F778B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19C2376-6605-4FFC-B96C-00337F778B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19C2376-6605-4FFC-B96C-00337F778B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19C2376-6605-4FFC-B96C-00337F778B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27AEF9E-EFFB-44E1-BF19-89D36447B2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27AEF9E-EFFB-44E1-BF19-89D36447B2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27AEF9E-EFFB-44E1-BF19-89D36447B2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27AEF9E-EFFB-44E1-BF19-89D36447B2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

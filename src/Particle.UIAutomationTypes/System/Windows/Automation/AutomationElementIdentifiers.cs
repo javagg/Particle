@@ -1,0 +1,124 @@
+﻿using System;
+using MS.Internal.Automation;
+
+namespace System.Windows.Automation
+{
+	public static class AutomationElementIdentifiers
+	{
+		public static readonly object NotSupported = UiaCoreTypesApi.UiaGetReservedNotSupportedValue();
+
+		public static readonly AutomationProperty IsControlElementProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsControlElement_Property, "AutomationElementIdentifiers.IsControlElementProperty");
+
+		public static readonly AutomationProperty ControlTypeProperty = AutomationProperty.Register(AutomationIdentifierGuids.ControlType_Property, "AutomationElementIdentifiers.ControlTypeProperty");
+
+		public static readonly AutomationProperty IsContentElementProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsContentElement_Property, "AutomationElementIdentifiers.IsContentElementProperty");
+
+		public static readonly AutomationProperty LabeledByProperty = AutomationProperty.Register(AutomationIdentifierGuids.LabeledBy_Property, "AutomationElementIdentifiers.LabeledByProperty");
+
+		public static readonly AutomationProperty NativeWindowHandleProperty = AutomationProperty.Register(AutomationIdentifierGuids.NewNativeWindowHandle_Property, "AutomationElementIdentifiers.NativeWindowHandleProperty");
+
+		public static readonly AutomationProperty AutomationIdProperty = AutomationProperty.Register(AutomationIdentifierGuids.AutomationId_Property, "AutomationElementIdentifiers.AutomationIdProperty");
+
+		public static readonly AutomationProperty ItemTypeProperty = AutomationProperty.Register(AutomationIdentifierGuids.ItemType_Property, "AutomationElementIdentifiers.ItemTypeProperty");
+
+		public static readonly AutomationProperty IsPasswordProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsPassword_Property, "AutomationElementIdentifiers.IsPasswordProperty");
+
+		public static readonly AutomationProperty LocalizedControlTypeProperty = AutomationProperty.Register(AutomationIdentifierGuids.LocalizedControlType_Property, "AutomationElementIdentifiers.LocalizedControlTypeProperty");
+
+		public static readonly AutomationProperty NameProperty = AutomationProperty.Register(AutomationIdentifierGuids.Name_Property, "AutomationElementIdentifiers.NameProperty");
+
+		public static readonly AutomationProperty AcceleratorKeyProperty = AutomationProperty.Register(AutomationIdentifierGuids.AcceleratorKey_Property, "AutomationElementIdentifiers.AcceleratorKeyProperty");
+
+		public static readonly AutomationProperty AccessKeyProperty = AutomationProperty.Register(AutomationIdentifierGuids.AccessKey_Property, "AutomationElementIdentifiers.AccessKeyProperty");
+
+		public static readonly AutomationProperty HasKeyboardFocusProperty = AutomationProperty.Register(AutomationIdentifierGuids.HasKeyboardFocus_Property, "AutomationElementIdentifiers.HasKeyboardFocusProperty");
+
+		public static readonly AutomationProperty IsKeyboardFocusableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsKeyboardFocusable_Property, "AutomationElementIdentifiers.IsKeyboardFocusableProperty");
+
+		public static readonly AutomationProperty IsEnabledProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsEnabled_Property, "AutomationElementIdentifiers.IsEnabledProperty");
+
+		public static readonly AutomationProperty BoundingRectangleProperty = AutomationProperty.Register(AutomationIdentifierGuids.BoundingRectangle_Property, "AutomationElementIdentifiers.BoundingRectangleProperty");
+
+		public static readonly AutomationProperty ProcessIdProperty = AutomationProperty.Register(AutomationIdentifierGuids.ProcessId_Property, "AutomationElementIdentifiers.ProcessIdProperty");
+
+		public static readonly AutomationProperty RuntimeIdProperty = AutomationProperty.Register(AutomationIdentifierGuids.RuntimeId_Property, "AutomationElementIdentifiers.RuntimeIdProperty");
+
+		public static readonly AutomationProperty ClassNameProperty = AutomationProperty.Register(AutomationIdentifierGuids.ClassName_Property, "AutomationElementIdentifiers.ClassNameProperty");
+
+		public static readonly AutomationProperty HelpTextProperty = AutomationProperty.Register(AutomationIdentifierGuids.HelpText_Property, "AutomationElementIdentifiers.HelpTextProperty");
+
+		public static readonly AutomationProperty ClickablePointProperty = AutomationProperty.Register(AutomationIdentifierGuids.ClickablePoint_Property, "AutomationElementIdentifiers.ClickablePointProperty");
+
+		public static readonly AutomationProperty CultureProperty = AutomationProperty.Register(AutomationIdentifierGuids.Culture_Property, "AutomationElementIdentifiers.CultureProperty");
+
+		public static readonly AutomationProperty IsOffscreenProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsOffscreen_Property, "AutomationElementIdentifiers.IsOffscreenProperty");
+
+		public static readonly AutomationProperty OrientationProperty = AutomationProperty.Register(AutomationIdentifierGuids.Orientation_Property, "AutomationElementIdentifiers.OrientationProperty");
+
+		public static readonly AutomationProperty FrameworkIdProperty = AutomationProperty.Register(AutomationIdentifierGuids.FrameworkId_Property, "AutomationElementIdentifiers.FrameworkIdProperty");
+
+		public static readonly AutomationProperty IsRequiredForFormProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsRequiredForForm_Property, "AutomationElementIdentifiers.IsRequiredForFormProperty");
+
+		public static readonly AutomationProperty ItemStatusProperty = AutomationProperty.Register(AutomationIdentifierGuids.ItemStatus_Property, "AutomationElementIdentifiers.ItemStatusProperty");
+
+		public static readonly AutomationProperty IsDockPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsDockPatternAvailable_Property, "AutomationElementIdentifiers.IsDockPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsExpandCollapsePatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsExpandCollapsePatternAvailable_Property, "AutomationElementIdentifiers.IsExpandCollapsePatternAvailableProperty");
+
+		public static readonly AutomationProperty IsGridItemPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsGridItemPatternAvailable_Property, "AutomationElementIdentifiers.IsGridItemPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsGridPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsGridPatternAvailable_Property, "AutomationElementIdentifiers.IsGridPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsInvokePatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsInvokePatternAvailable_Property, "AutomationElementIdentifiers.IsInvokePatternAvailableProperty");
+
+		public static readonly AutomationProperty IsMultipleViewPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsMultipleViewPatternAvailable_Property, "AutomationElementIdentifiers.IsMultipleViewPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsRangeValuePatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsRangeValuePatternAvailable_Property, "AutomationElementIdentifiers.IsRangeValuePatternAvailableProperty");
+
+		public static readonly AutomationProperty IsSelectionItemPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsSelectionItemPatternAvailable_Property, "AutomationElementIdentifiers.IsSelectionItemPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsSelectionPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsSelectionPatternAvailable_Property, "AutomationElementIdentifiers.IsSelectionPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsScrollPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsScrollPatternAvailable_Property, "AutomationElementIdentifiers.IsScrollPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsScrollItemPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsScrollItemPatternAvailable_Property, "AutomationElementIdentifiers.IsScrollItemPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsSynchronizedInputPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsSynchronizedInputPatternAvailable_Property, "AutomationElementIdentifiers.IsSynchronizedInputPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsVirtualizedItemPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsVirtualizedItemPatternAvailable_Property, "AutomationElementIdentifiers.IsVirtualizedItemPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsItemContainerPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsItemContainerPatternAvailable_Property, "AutomationElementIdentifiers.IsItemContainerPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsTablePatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsTablePatternAvailable_Property, "AutomationElementIdentifiers.IsTablePatternAvailableProperty");
+
+		public static readonly AutomationProperty IsTableItemPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsTableItemPatternAvailable_Property, "AutomationElementIdentifiers.IsTableItemPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsTextPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsTextPatternAvailable_Property, "AutomationElementIdentifiers.IsTextPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsTogglePatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsTogglePatternAvailable_Property, "AutomationElementIdentifiers.IsTogglePatternAvailableProperty");
+
+		public static readonly AutomationProperty IsTransformPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsTransformPatternAvailable_Property, "AutomationElementIdentifiers.IsTransformPatternAvailableProperty");
+
+		public static readonly AutomationProperty IsValuePatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsValuePatternAvailable_Property, "AutomationElementIdentifiers.IsValuePatternAvailableProperty");
+
+		public static readonly AutomationProperty IsWindowPatternAvailableProperty = AutomationProperty.Register(AutomationIdentifierGuids.IsWindowPatternAvailable_Property, "AutomationElementIdentifiers.IsWindowPatternAvailableProperty");
+
+		public static readonly AutomationEvent ToolTipOpenedEvent = AutomationEvent.Register(AutomationIdentifierGuids.ToolTipOpened_Event, "AutomationElementIdentifiers.ToolTipOpenedEvent");
+
+		public static readonly AutomationEvent ToolTipClosedEvent = AutomationEvent.Register(AutomationIdentifierGuids.ToolTipClosed_Event, "AutomationElementIdentifiers.ToolTipClosedEvent");
+
+		public static readonly AutomationEvent StructureChangedEvent = AutomationEvent.Register(AutomationIdentifierGuids.StructureChanged_Event, "AutomationElementIdentifiers.StructureChangedEvent");
+
+		public static readonly AutomationEvent MenuOpenedEvent = AutomationEvent.Register(AutomationIdentifierGuids.MenuOpened_Event, "AutomationElementIdentifiers.MenuOpenedEvent");
+
+		public static readonly AutomationEvent AutomationPropertyChangedEvent = AutomationEvent.Register(AutomationIdentifierGuids.AutomationPropertyChanged_Event, "AutomationElementIdentifiers.AutomationPropertyChangedEvent");
+
+		public static readonly AutomationEvent AutomationFocusChangedEvent = AutomationEvent.Register(AutomationIdentifierGuids.AutomationFocusChanged_Event, "AutomationElementIdentifiers.AutomationFocusChangedEvent");
+
+		public static readonly AutomationEvent AsyncContentLoadedEvent = AutomationEvent.Register(AutomationIdentifierGuids.AsyncContentLoaded_Event, "AutomationElementIdentifiers.AsyncContentLoadedEvent");
+
+		public static readonly AutomationEvent MenuClosedEvent = AutomationEvent.Register(AutomationIdentifierGuids.MenuClosed_Event, "AutomationElementIdentifiers.MenuClosedEvent");
+
+		public static readonly AutomationEvent LayoutInvalidatedEvent = AutomationEvent.Register(AutomationIdentifierGuids.LayoutInvalidated_Event, "AutomationElementIdentifiers.LayoutInvalidatedEvent");
+	}
+}
